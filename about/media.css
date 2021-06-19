@@ -1,0 +1,186 @@
+@media (max-width: 1200px) {
+        header{
+            width: 100%;
+        }
+    }
+@media (max-width: 992px) {
+    header{
+        width: 100%;
+    }
+    .burger{
+        position: fixed;
+        left: 82%;
+    }
+
+    .about-flowers .carousel-item img{
+     width: 992px;
+    }
+    .us .just-content p{
+        width: 700px;
+    }
+    .about-flowers .called h2{
+
+        margin-top: -400px;
+        left: 260px;
+        z-index: 2;
+        color: white;
+        position: absolute;
+        font-size: 50px;
+    }
+
+    .end .logo-footer img{
+        padding: 30px 0 20px 10px;
+    }
+    .end .end-title h3{
+        padding: 10px 0 30px ;
+        font-size: 10px;
+    }
+    .end .coll h3{
+        font-size: 15px;
+    }
+    .end .coll3 h3{
+        font-size: 15px;
+    }
+    .end .coll{
+        padding:113px 10px 30px  ;
+    }
+    .end .coll ul{
+        font-size: 9px;
+    }
+    .end .coll3{
+        padding:113px 10px 30px  ;
+    }
+    .end .coll3 ul{
+        font-size: 9px;
+    }
+    .end .coll3 a{
+        font-size: 9px;
+    }
+    .end-title{
+        font-size: 15px;
+    }
+    .icons{
+        display: flex;
+        width: 10px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    .icons img{
+        margin-left: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .burger{
+        position: fixed;
+        left: 80%;
+    }
+     .logo img {
+        width: 100px;
+        text-align: left;
+    }
+
+    header {
+        width:100%;
+    }
+    .about-flowers .called h2{
+        margin-top: -300px;
+        left: 260px;
+        z-index: 2;
+        color: white;
+        position: absolute;
+        font-size: 30px;
+    }
+    .us .just-content p{
+        margin: 0 auto;
+        width: 500px;
+        padding-bottom: 50px;
+    }
+    .us .our-values img{
+
+        margin-left: 78px;
+    }
+    .footer {
+        width: 100%;
+    }
+
+    .footer .first-coll {
+        width: 20%;
+    }
+
+    .end .coll {
+        display: none;
+    }
+
+    .end .coll3 {
+        display: none;
+    }
+    .end .icons{
+        padding:114px 20px 30px 70px ;
+        display: flex;
+    }
+    .end .icons img{
+        width: 20px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .burger{
+        position: fixed;
+        left: 80%;
+    }
+    .burger-btn{
+        width: 100px;
+    }
+    .burger-btn a{
+        font-size: 14px;
+    }
+     .logo img {
+        width: 80px;
+        text-align: left;
+    }
+
+    header {
+        width: 100%;
+    }
+    .about-flowers .called h2{
+        margin-top: -190px;
+        left: 160px;
+        z-index: 2;
+        color: white;
+        position: absolute;
+        font-size: 30px;
+    }
+    .us .just-content p{
+        margin: 0 auto;
+        width: 380px;
+        padding-bottom: 50px;
+    }
+    .us .our-values img{
+        margin-left: 56px;
+    }
+    .footer {
+        width: 100%;
+    }
+
+    .footer .first-coll {
+        width: 20%;
+    }
+
+    .end .coll {
+        display: none;
+    }
+
+    .end .coll3 {
+        display: none;
+    }
+    .end .icons{
+        padding:114px 20px 30px 20px ;
+        display: flex;
+        margin-bottom: 80px;
+    }
+    .end .icons img{
+        width: 20px;
+        height: 50px;
+    }
+}

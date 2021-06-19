@@ -1,0 +1,177 @@
+@media (max-width: 1200px) {
+    header{
+        width:100%;
+    }
+}
+@media (max-width: 992px) {
+    .one{
+        width:100%;
+    }
+    .burger{
+        position: fixed;
+        left: 82%;
+    }
+
+    .out .cart3 input{
+    margin-left: 30px;
+    }
+    .out .cart4 input{
+       margin-left: 30px;
+    }
+    .out .cart5 input{
+       margin-left: 30px;
+    }
+
+
+    .end .logo-footer img{
+        padding: 30px 0 20px 10px;
+    }
+    .end .end-title h3{
+        padding: 10px 0 30px ;
+        font-size: 10px;
+    }
+    .end .coll h3{
+        font-size: 15px;
+    }
+    .end .coll3 h3{
+        font-size: 15px;
+    }
+    .end .coll{
+        padding:100px 10px 30px  ;
+    }
+    .end .coll ul{
+        font-size: 9px;
+    }
+    .end .coll3{
+        padding:100px 10px 30px  ;
+    }
+    .end .coll3 ul{
+        font-size: 9px;
+    }
+    .end .coll3 a{
+        font-size: 9px;
+    }
+    .end-title{
+        font-size: 15px;
+    }
+    .icons {
+        display: flex;
+        width: 10px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    .icons img{
+        margin-left: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .burger{
+        position: fixed;
+        left: 80%;
+    }
+     .logo img {
+         width: 100px;
+         text-align: left;
+     }
+
+        header{
+            width: 100%;
+        }
+    .out .button button{
+        padding: 10px 40px;
+        margin: 50px 0 0 220px;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .footer .first-coll {
+        width: 20%;
+    }
+
+    .end .coll {
+        display: none;
+    }
+
+    .end .coll3 {
+        display: none;
+    }
+    .end .icons{
+        padding:114px 20px 30px 70px ;
+        display: flex;
+        margin-bottom: 80px;
+    }
+    .end .icons img{
+        width: 20px;
+        height: 50px;
+    }
+}
+
+@media (max-width:576px ) {
+    .burger{
+        position: fixed;
+        left: 80%;
+    }
+    .burger-btn{
+        width: 100px;
+    }
+    .burger-btn a{
+        font-size: 14px;
+    }
+     .logo img {
+        width: 80px;
+        text-align: left;
+    }
+    header {
+        width: 100%;
+    }
+
+.out .checkout-title h2{
+    text-align: center;
+    font-size: 24px;
+}
+.out .cart3 input{
+    padding:15px 30px;
+    margin-bottom: 10px;
+    margin-left: 130px;
+}
+.out .cart4 input{
+    padding:15px 30px ;
+    margin-left: 130px ;
+    width: 50%;
+}
+.out .cart5 input{
+   margin-left: 130px;
+}
+.out .button button{
+    margin: 50px 0 0 200px;
+}
+    .footer {
+        width: 100%;
+    }
+
+    .footer .first-coll {
+        width: 20%;
+    }
+
+    .end .coll {
+        display: none;
+    }
+
+    .end .coll3 {
+        display: none;
+    }
+    .end .icons{
+        padding:114px 7px 30px 7px ;
+        display: flex;
+        margin-bottom: 80px;
+    }
+    .end .icons a img{
+        width: 20px;
+        height: 50px;
+      margin-left: 19px;
+    }
+
+}
+

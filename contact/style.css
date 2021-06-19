@@ -1,0 +1,179 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.burger{
+    position: fixed;
+    left: 87%;
+    z-index: 2;
+}
+.burger-btn{
+    width: 188px;
+    background: none;
+    position: relative;
+    color: white;
+    text-align: center;
+    height: 40px;
+}
+
+#check-menu{
+    display: none;
+}
+label{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 2;
+    line-height: 40px;
+}
+.burger-line{
+    position: absolute;
+    top: 8px;
+    left:10px ;
+    width: 35px;
+    height: 2px;
+    background-color: #000000;
+    transition: .5s all;
+}
+.second, .third{
+    top: 18px;
+}
+.fourth{
+    top: 28px;
+}
+.main-menu{
+    position: absolute;
+    display: block;
+    width:100%;
+    bottom: 0;
+    left: 0;
+    transform:translateY(100%);
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    transition: .5s all;
+}
+.burger a{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    border-top: 1px solid rgba(255,255,255, .3);
+    background-color: white;
+}
+#check-menu:checked ~ .main-menu{
+    max-height: 500px;
+    font-size: 16px;
+}
+#check-menu:checked ~ .first{
+    display: none;
+}
+#check-menu:checked ~ .second{
+    transform: rotate(45deg);
+}
+#check-menu:checked ~ .third{
+    transform: rotate(-45deg);
+}
+#check-menu:checked ~ .fourth{
+    display: none;
+}
+header .top{
+    background: darkseagreen;
+}
+.menu_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+
+}
+.image-end .carousel-item img{
+    width: 90%;
+}
+.contacts1{
+    display: flex;
+}
+.contacts1 .title-s{
+    width: 30%;
+}
+.contacts1 .title-s li{
+    list-style: none;
+}
+.contacts1 .title-s li a{
+    text-decoration: none;
+    color: black;
+}
+.contacts1 .title-s li img{
+    width: 30px;
+    height: 30px;
+}
+.our-contacts .title3 h2{
+    padding:40px 0;
+    text-align: center;
+    color: #0c5460;
+}
+.contacts1 .part-right{
+    width: 30%;
+}
+.part-right .firs-in input{
+    padding: 10px 30px ;
+}
+.part-right .second-in input{
+    padding: 10px 30px ;
+    margin: 30px 0 15px 0;
+}
+.part-right .third-in input {
+    padding: 10px 30px;
+    margin: 15px 0;
+}
+ .part-right .fourth-in button{
+      padding: 10px 30px ;
+      margin: 15px 0 0 65px;
+    background: #0c5460;
+    color: white;
+  }
+.contacts1 .part-right2{
+    width: 30%;
+}
+.contacts1 .part-right2 img{
+    width: 500px;
+    height: 300px;
+ }
+footer{
+    margin-top: 70px;
+    background: darkseagreen;
+    color: white;
+}
+.end{
+    display: flex;
+}
+.end .logo-footer img{
+    padding: 50px 0 20px 20px;
+}
+.end .end-title {
+    padding: 10px 0 30px 20px;
+}
+
+.end .coll{
+    padding:125px 20px 30px 20px ;
+}
+.end .coll li a{
+    text-decoration: none;
+    color: white;
+}
+.end .coll3{
+    padding:125px 20px 30px 20px ;
+}
+.end .coll3 a{
+    text-decoration: none;
+    color: white;
+}
+.end .icons{
+    padding:125px 20px 30px 20px ;
+}
